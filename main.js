@@ -39,8 +39,8 @@ btnNo.addEventListener("mouseover", (event) => {
 
 btnYes.addEventListener("click", (e) => {
   btnNo.classList.add("hide");
-  if (headerText) headerText.textContent = "Yay! 🎉";
-  if (instructions) instructions.textContent = "Thanks — you're awesome.";
+  if (headerText) headerText.textContent = "Cool";
+  if (instructions) instructions.textContent = "Very Cool";
 
   if (resultLink) {
     resultLink.classList.remove("hide");
