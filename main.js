@@ -41,4 +41,9 @@ btnYes.addEventListener("click", (e) => {
   btnNo.classList.add("hide");
   if (headerText) headerText.textContent = "Yay! 🎉";
   if (instructions) instructions.textContent = "Thanks — you're awesome.";
+
+  if (resultLink) {
+    resultLink.classList.remove("hide");
+    resultLink.focus();
+  }
 });
